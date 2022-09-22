@@ -1,0 +1,18 @@
+@use "../config/index.scss" as *;
+
+body {
+  // margin: var(--header-height);
+  font-family: var(--body-font);
+  font-size: var(--fs-300);
+  background-color: var(--body-color);
+  color: var(--text-color);
+  transition: 0.3s;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: var(--fw-semi-bold);
+  color: var(--title-color);
+  line-height: 1.5;
+}

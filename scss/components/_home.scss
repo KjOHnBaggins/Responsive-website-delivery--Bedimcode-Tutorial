@@ -1,0 +1,17 @@
+@use '../config/index.scss' as *;
+
+.home {
+    &__container {
+        row-gap: 3rem;
+    }
+
+    &__title {
+        font-size: var(--fs-600);
+        font-weight: var(--fw-bold);
+        margin-bottom: var(--mb-2);
+    }
+
+    &__description {
+        margin-bottom: var(--mb-2);
+    }
+}

@@ -1,0 +1,50 @@
+:root {
+    --header-height: 3rem;
+
+    --hue: 45;
+    --saturation: 98%;
+    --first-color: hsl(var(--hue), var(--saturation), 60%);
+    --first-color-light: hsl(var(--hue), var(--saturation), 85%);
+    --first-color-lighten: hsl(var(--hue), var(--saturation), 80%);
+    --first-color-alt: hsl(var(--hue), var(--saturation), 53%);
+    --title-color: hsl(var(--hue), 4%, 15%);
+    --text-color: hsl(var(--hue), 4%, 35%);
+    --text-color-light: hsl(var(--hue), 4%, 65%);
+    --body-color: hsl(var(--hue), 0%, 100%);
+    --container-color: hsl(0, 0%, 100%);
+    --scroll-bar-color: hsl(var(--hue), 4%, 85%);
+    --scroll-thumb-color: hsl(var(--hue), 4%, 75%);
+
+    --body-font: 'Poppins', sans-serif;
+
+    --fs-100: .75rem;
+    --fs-200: .813rem;
+    --fs-300: .938rem;
+    --fs-400: 1.125rem;
+    --fs-500: 1.25rem;
+    --fs-600: 2rem;
+
+    @media screen and (min-width: 60em) {
+        --fs-100: .813rem;
+        --fs-200: .875rem;
+        --fs-300: 1rem;
+        --fs-400: 1.25rem;
+        --fs-500: 1.75rem;
+        --fs-600: 3rem;
+    }
+
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+
+    //margins
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+
+    //z-index
+    --z-tooltip: 10;
+    --z-fixed: 100;
+
+}

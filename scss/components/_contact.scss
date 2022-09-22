@@ -1,0 +1,21 @@
+@use "../config/index.scss" as *;
+
+.contact {
+  &__container {
+    padding-bottom: 3rem;
+  }
+  &__description {
+    text-align: center;
+  }
+  &__content {
+    row-gap: 0.75rem;
+  }
+  &__address {
+    font-size: var(--fs-100);
+    font-weight: var(--fw-semi-bold);
+  }
+  &__information {
+    font-weight: initial;
+    color: var(--text-color);
+  }
+}

@@ -1,0 +1,8 @@
+@forward './config/index.scss';
+@forward './vendor/vendor';
+@forward './base/index.scss';
+@forward './layout/index.scss';
+@forward './theme/index.scss';
+@forward './components/index.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
